@@ -11,6 +11,6 @@ file.close()
 
 file = open('output.txt', 'r')
 print("\nFinal content of the file:")
-for line in file:
-    print(line.strip())
+final_content=file.read()
+print(final_content)
 file.close()
